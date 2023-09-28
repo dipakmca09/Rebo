@@ -9,7 +9,7 @@ metadata:
     example.com/service-discovery: rebo
     circleci.com/project-slug: gdipakmca09/Rebo
   tags:
-    - React
+    - react
   links:
     - url: https://rebobank.com
       title: Admin Dashboard
