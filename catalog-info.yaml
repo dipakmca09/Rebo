@@ -1,9 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Rebo
+  name: Dipak
+  description: This is bank site
+  labels:
+    example.com/custom: bank_site
   annotations:
-    github.com/project-slug: dipakmca09/Rebo
+    example.com/service-discovery: rebo
+    circleci.com/project-slug: gdipakmca09/Rebo
+  tags:
+    - React
+  links:
+    - url: https://rebobank.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
 spec:
-  type: other
-  lifecycle: unknown
+  type: website
+  lifecycle: production
+  owner: artist-relations-team
+  system: public-websites
